@@ -11,14 +11,11 @@
     "url": "git://github.com/trendalytics/dirarray.git"
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3"
   },
   "main": "./lib",
-  "scripts": {
-    "test": "vows --spec test"
-  },
   "engines": {
-    "node": ">=0.10.5"
+    "node": ">=0.8.0"
   }
 }
